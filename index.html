@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset='utf-8'>
+    <meta name='description' content="Salut I'm gabriel, and this is my portfolio.">
+    <title>gabriel</title>
+    <link rel='icon' type='image/x-icon' href='./assets/favicon-dark.png' id='favicon' />
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1' crossorigin='anonymous'>
+    <script src='main.js'></script>
+    <script src='whoami.js'></script>
+    <link rel='stylesheet' href='./css/dark.css' id='theme-css'>
+    <link rel='stylesheet' href='./css/styles.css'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id='main-navbar'>
+                <li class='navbar-item navbar-active'><a href='index.html'>% whoami</a></li>
+                <li class='navbar-item'><a href='projects.html'>Projects</a></li>
+                <li class='navbar-item'><a href='faq.html'>FAQ</a></li>
+                <li class='navbar-item'><a href='contact.html'>Contact me</a></li>
+                <li id='li-button'>
+                    <button id='theme-button'>
+                        <svg id='theme-SVG' width='60%' height='60%' viewBox='0 0 16 16' class='bi bi-sun'
+                            xmlns='http://www.w3.org/2000/svg' aria-labelledby='theme-button-title'>
+                            <title id='theme-button-title'>Toggle Dark / Light Theme</title>
+                            <path id='SVG_path' fill-rule='evenodd'
+                                d='M8.202.28a.25.25 0 0 0-.404 0l-.91 1.255a.25.25 0 0 1-.334.067L5.232.79a.25.25 0 0 0-.374.155l-.36 1.508a.25.25 0 0 1-.282.19l-1.532-.245a.25.25 0 0 0-.286.286l.244 1.532a.25.25 0 0 1-.189.282l-1.509.36a.25.25 0 0 0-.154.374l.812 1.322a.25.25 0 0 1-.067.333l-1.256.91a.25.25 0 0 0 0 .405l1.256.91a.25.25 0 0 1 .067.334L.79 10.768a.25.25 0 0 0 .154.374l1.51.36a.25.25 0 0 1 .188.282l-.244 1.532a.25.25 0 0 0 .286.286l1.532-.244a.25.25 0 0 1 .282.189l.36 1.508a.25.25 0 0 0 .374.155l1.322-.812a.25.25 0 0 1 .333.067l.91 1.256a.25.25 0 0 0 .405 0l.91-1.256a.25.25 0 0 1 .334-.067l1.322.812a.25.25 0 0 0 .374-.155l.36-1.508a.25.25 0 0 1 .282-.19l1.532.245a.25.25 0 0 0 .286-.286l-.244-1.532a.25.25 0 0 1 .189-.282l1.508-.36a.25.25 0 0 0 .155-.374l-.812-1.322a.25.25 0 0 1 .067-.333l1.256-.91a.25.25 0 0 0 0-.405l-1.256-.91a.25.25 0 0 1-.067-.334l.812-1.322a.25.25 0 0 0-.155-.374l-1.508-.36a.25.25 0 0 1-.19-.282l.245-1.532a.25.25 0 0 0-.286-.286l-1.532.244a.25.25 0 0 1-.282-.189l-.36-1.508a.25.25 0 0 0-.374-.155l-1.322.812a.25.25 0 0 1-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z M3.5 8a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z' />
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <ul id='zsh'>
+            <li class='terminal-text'>
+                <span class='zsh-text'>gabriel@cs50 ~ % </span>
+                <span>whoami</span>
+            </li>
+            <li>
+                <ul>
+                    <li class='terminal-text cat'>gabriel</li>
+                </ul>
+            </li>
+            <li class='terminal-text'>
+                <span class='zsh-text'>gabriel@cs50 ~ % </span>
+                <span>cd gabriel/documents</span>
+            </li>
+            <li class='terminal-text'>
+                <span class='zsh-text'>gabriel@cs50 ~ % </span>
+                <span>cat about-me.md</span>
+            </li>
+            <li>
+                <ul>
+                    <li class='terminal-text'>
+                        &nbsp;&nbsp; Salut, I'm gabriel !
+                    </li>
+                    <li class='terminal-text'>
+                        <span>I'm a [ </span>
+                        <span class='country'>
+                            <img src='./assets/fr-flag.png' alt='French flag' class='country-flag' />
+                            <span class='country-text'>French</span>
+                        </span>
+                        /
+                        <span class='country'>
+                            <img src='./assets/mx-flag.png' alt='French flag' class='country-flag' />
+                            <span class='country-text'>Mexican</span>
+                        </span>
+                        <span> ]</span>
+                        <span id='age'>19</span>
+                        <span> y/o beginner programmer.</span>
+                    </li>
+                    <li class='terminal-text'>
+                        I like to use <span id='c'>C</span>, <span id='javascript'>JavaScript</span>, <span
+                            id='node'>Node</span>, <span id='react'>React</span>, <span id='python'>Python</span>, and
+                        other tools to do cool projects.
+                    </li>
+                    <li class='terminal-text'>
+                        I'm constantly learning new programming languages, and I'm currently studying probability and
+                        machine learning, as I would like to work on A.I. next.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id='zsh-entries'>
+            <li class='terminal-text terminal-entry'>
+                <span class='zsh-text'>gabriel@cs50 ~ % </span>
+                <span class='input-text'></span>
+                <div id='cursor'></div>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+* {
+    color: #000000;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+#main-navbar {
+    background-color: #166594;
+}
+
+.navbar-active {
+    background-color: #2b4470;
+}
+
+.navbar-item a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.navbar-item a {
+    color: #ffffff;
+}
+
+#theme-button {
+    fill: #ffffff;
+    background-color: #166594;
+}
+
+#theme-button:hover {
+    fill: #333333;
+}
+
+.zsh-text {
+    color: rgb(134, 142, 150);
+}
+
+#cursor {
+    background-color: #000000;
+}
+
+#c {
+    color: #96a4b3;
+}
+
+#python {
+    color: #eb9d28;
+}
+
+#javascript {
+    color: #f1d700;
+}
+
+#node {
+    color: #74c035;
+}
+
+#react {
+    color: #4ba9dc;
+}
+
+.contact-svg {
+    fill: #333333;
+}
+
+.transform-letter:hover {
+    color: #4d8cd4;
+}
+
+.contact-svg:hover {
+    fill: #4d8cd4;
+}
+
+.accordion-button {
+    border-top: 1px solid rgba(33, 33, 33, 0.5);
+}
+
+.accordion-button span {
+    color: #000000;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(33, 33, 33, 0.9);
+}
+
+.accordion-button:not(.collapsed) span {
+    color: #ffffff;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.project-card {
+    background-color: #585858;
+    border: 3px solid #585858;
+}
+
+.project-part {
+    border-bottom: 2px solid rgb(205, 207, 208);
+}
+
+.project-title {
+    color: #ffffff;
+}
+
+.project-body-container {
+    color: #ffffff;
+}
+
+.project-link {
+    border: 6px solid #3694fe;
+    background-color: #3694fe;
+    color: #ffffff;
+}
+
+.project-link:hover {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #3694fe;
+}
+
+.project-link:hover .svg-link {
+    fill: #3694fe;
+}
+
+.svg-link {
+    fill: #ffffff;
+}
+
+.modal-title {
+    color: #000000;
+}
+
+#codenames-image-container {
+    background-color: #ffffff;
+}
+
+#snek-image-container {
+    background-color: #000000;
+}

@@ -1,0 +1,147 @@
+* {
+    color: #ffffff;
+}
+
+body {
+    background-color: #222222;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+#main-navbar {
+    background-color: #166594;
+}
+
+.navbar-active {
+    background-color: #2b4470;
+}
+
+.navbar-item a:hover {
+    background-color: #333333;
+}
+
+.navbar-item a {
+    color: #ffffff;
+}
+
+#theme-button {
+    fill: #ffffff;
+    background-color: #166594;
+}
+
+#theme-button:hover {
+    fill: #333333;
+}
+
+.zsh-text {
+    color: #999999;
+}
+
+#cursor {
+    background-color: #ffffff;
+}
+
+#c {
+    color: #a9bbce;
+}
+
+#python {
+    color: #eb9d28;
+}
+
+#javascript {
+    color: #f8d750;
+}
+
+#node {
+    color: #74c035;
+}
+
+#react {
+    color: #4ba9dc;
+}
+
+.contact-svg {
+    fill: white;
+}
+
+.transform-letter:hover {
+    color: #4d8cd4;
+}
+
+.contact-svg:hover {
+    fill: #4d8cd4;
+}
+
+.accordion-button {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.accordion-button span {
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.accordion-button:not(.collapsed) span {
+    color: #000000;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.project-card {
+    background-color: rgba(250, 250, 250);
+    border: 3px solid rgba(250, 250, 250);
+}
+
+.project-part {
+    border-bottom: 2px solid rgb(134, 142, 150);
+}
+
+.project-title {
+    color: #000000;
+}
+
+.project-body-container {
+    color: #000000;
+}
+
+.project-link {
+    border: 6px solid #0d6efd;
+    background-color: #0d6efd;
+}
+
+.project-link:hover {
+    border-color: #333333;
+    background-color: #333333;
+}
+
+.svg-link {
+    fill: #ffffff;
+}
+
+.modal-title {
+    color: #000000;
+}
+
+#codenames-image-container {
+    background-color: #ffffff;
+}
+
+#snek-image-container {
+    background-color: #000000;
+}

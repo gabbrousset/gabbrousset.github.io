@@ -1,0 +1,316 @@
+* {
+    font-family: 'SFMono-Regular', monospace;
+    font-size: calc(
+        12px + (18 - 16) * (100vw - 400px) / (800 - 400)
+    ); /* https://www.smashingmagazine.com/2016/05/fluid-typography/ */
+}
+
+a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    margin-top: 60px;
+}
+
+#main-navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    align-items: center;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-item {
+    flex: 1 1 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-item a {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#li-button {
+    flex: 10;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#theme-button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+
+.title {
+    text-align: center;
+    padding: 30px 0px;
+    margin-bottom: 1em;
+}
+
+#zsh {
+    padding: 60px 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.terminal-text {
+    margin-right: 0;
+    line-height: 60px;
+}
+
+.terminal-entry {
+    font-size: 0;
+}
+
+.input-text {
+    white-space: pre-wrap;
+}
+
+#cursor {
+    width: 7px;
+    height: 16px;
+    display: inline-block;
+    animation: blinker 0.75s infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.country {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.country:hover {
+    cursor: default;
+}
+
+.country:hover .country-text {
+    opacity: 0;
+}
+
+.country:hover .country-flag {
+    opacity: 1;
+}
+
+.country-flag {
+    opacity: 0;
+    height: 16px;
+    position: absolute;
+}
+
+#contact-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.svg-div {
+    text-align: center;
+    flex: 1;
+    display: flex;
+}
+
+.svg-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.contact-svg {
+    height: 7em;
+}
+
+.svg-text {
+    padding-top: 20px;
+    display: inline-block;
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+}
+
+.transform-letter:hover {
+    font-size: calc(18px + (18 - 16) * (100vw - 400px) / (800 - 400));
+}
+
+.contact-svg:hover {
+    transform: scale(1.1);
+}
+
+.accordion-flush .accordion-item:first-of-type .accordion-button {
+    border-top-width: 1px;
+}
+
+.accordion-inner-text {
+    padding: 1em 2em;
+    display: block;
+}
+
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -4em;
+}
+
+.project-card {
+    margin: 4em;
+    flex: 0 1 20em;
+    display: flex;
+    flex-direction: column;
+    height: 37em;
+    border-radius: 12px;
+}
+
+.project-part {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-title {
+    flex: 3;
+    display: flex;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.project-image-container {
+    flex: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-in;
+}
+
+.project-image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.image-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-body-container {
+    flex: 8;
+    padding: 15px;
+}
+
+.project-links-container {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0;
+}
+
+.project-link {
+    flex: 1;
+    text-align: center;
+    height: 100%;
+    max-height: 100%;
+    border-radius: 6px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-link-container {
+    height: 100%;
+}
+
+.svg-link {
+    height: 100%;
+}
+
+@media only screen and (max-width: 800px) and (max-height: 1200px) {
+    .svg-link-container {
+        flex: 1;
+        max-height: 100%;
+        height: 100%;
+        max-width: 100%;
+        display: flex;
+    }
+
+    .svg-link {
+        flex: 1;
+    }
+}
+
+.modal {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.modal-dialog {
+    max-width: 80%;
+    max-height: 90%;
+    margin: 5em auto;
+}
+
+.modal-title {
+    text-transform: uppercase;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1;
+    object-fit: contain;
+}
