@@ -52,11 +52,11 @@ a:hover {
 }
 
 #python {
-    color: #eb9d28;
+    color: #ffd343;
 }
 
-#javascript {
-    color: #f8d750;
+#typescript {
+    color: #3178c6;
 }
 
 #node {
@@ -65,6 +65,10 @@ a:hover {
 
 #react {
     color: #4ba9dc;
+}
+
+#lua {
+    color: #1b1bff;
 }
 
 .contact-svg {
