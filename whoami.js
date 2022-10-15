@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const updateAge = () => {
-        const birthDate = new Date(2001, 9, 28);
+        // Months are 0-indexed
+        const birthDate = new Date(2001, 9 - 1, 28);
         const currentDate = new Date();
 
         const milliseconds = currentDate.getTime() - birthDate.getTime();
