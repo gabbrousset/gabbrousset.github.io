@@ -147,6 +147,16 @@ main {
     display: flex;
 }
 
+@media screen and (max-width: 950px) {
+    #contact-icons {
+        flex-direction: column;
+    }
+
+    .svg-div {
+        margin-bottom: 3rem;
+    }
+}
+
 .svg-container {
     flex: 1;
     display: flex;
@@ -161,7 +171,6 @@ main {
 }
 
 .svg-text {
-    flex: 1;
     padding-top: 20px;
     display: flex;
     flex-direction: row;
