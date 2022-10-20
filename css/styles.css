@@ -325,3 +325,10 @@ main {
     flex: 1;
     object-fit: contain;
 }
+
+#cv-iframe {
+    position: fixed;
+    height: 72%;
+    width: 90%;
+    left: 5%;
+}
