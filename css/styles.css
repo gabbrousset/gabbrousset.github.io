@@ -138,6 +138,7 @@ main {
     justify-content: space-around;
     width: 90%;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .svg-div {
@@ -160,15 +161,15 @@ main {
 }
 
 .svg-text {
+    flex: 1;
     padding-top: 20px;
-    display: inline-block;
     display: flex;
-    height: 60px;
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    width: auto;
     flex-wrap: wrap;
+    height: 60px;
+    width: auto;
     letter-spacing: 1px;
 }
 
