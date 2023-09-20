@@ -7,7 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const SVG_path = document.getElementById('SVG_path');
     const favicon = document.getElementById('favicon');
     const userTheme = localStorage.getItem('userTheme');
-    const basePath = location.pathname === '/' ? '.' : '..';
+    const isBase =
+        location.pathname === '/' || location.pathname === '/~gcabal/';
+    const basePath = isBase ? '.' : '..';
 
     toggleThemeButton.addEventListener('click', () => {
         if (themeCSS.getAttribute('href') == `${basePath}/css/dark.css`) {
