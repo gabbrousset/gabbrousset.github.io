@@ -326,7 +326,7 @@ main {
     object-fit: contain;
 }
 
-#cv-iframe {
+#resume-iframe {
     position: fixed;
     height: 72%;
     width: 90%;
